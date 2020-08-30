@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  background-color: goldenrod;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 60px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.link {
+  color: black;
+  padding: 10px;
+}
