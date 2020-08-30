@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00d3ec0a2b83387a67bc2979f0c7f839",
+    "revision": "b1f6ed3d0ed4e81bf86ac9bf4054722d",
     "url": "/taktikal/index.html"
   },
   {
-    "revision": "b51ac8e3de78a0dba0fe",
-    "url": "/taktikal/static/css/main.dc4361f2.chunk.css"
+    "revision": "1bca8020b373c14f0ce5",
+    "url": "/taktikal/static/css/main.80e214eb.chunk.css"
   },
   {
     "revision": "e14fa5dc45fa37a1fbfe",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/taktikal/static/js/2.7ed639b2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b51ac8e3de78a0dba0fe",
-    "url": "/taktikal/static/js/main.49fcb62d.chunk.js"
+    "revision": "1bca8020b373c14f0ce5",
+    "url": "/taktikal/static/js/main.e4a702b6.chunk.js"
   },
   {
     "revision": "534c005feb2d02d583e2",

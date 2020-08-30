@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/taktikal/static/css/main.dc4361f2.chunk.css",
-    "main.js": "/taktikal/static/js/main.49fcb62d.chunk.js",
-    "main.js.map": "/taktikal/static/js/main.49fcb62d.chunk.js.map",
+    "main.css": "/taktikal/static/css/main.80e214eb.chunk.css",
+    "main.js": "/taktikal/static/js/main.e4a702b6.chunk.js",
+    "main.js.map": "/taktikal/static/js/main.e4a702b6.chunk.js.map",
     "runtime-main.js": "/taktikal/static/js/runtime-main.30a99cc1.js",
     "runtime-main.js.map": "/taktikal/static/js/runtime-main.30a99cc1.js.map",
     "static/js/2.7ed639b2.chunk.js": "/taktikal/static/js/2.7ed639b2.chunk.js",
     "static/js/2.7ed639b2.chunk.js.map": "/taktikal/static/js/2.7ed639b2.chunk.js.map",
     "index.html": "/taktikal/index.html",
-    "precache-manifest.2305ff0078329a26b89585d9db8983f1.js": "/taktikal/precache-manifest.2305ff0078329a26b89585d9db8983f1.js",
+    "precache-manifest.aaab8151dd7a2aece676eb32fd804ba2.js": "/taktikal/precache-manifest.aaab8151dd7a2aece676eb32fd804ba2.js",
     "service-worker.js": "/taktikal/service-worker.js",
-    "static/css/main.dc4361f2.chunk.css.map": "/taktikal/static/css/main.dc4361f2.chunk.css.map",
+    "static/css/main.80e214eb.chunk.css.map": "/taktikal/static/css/main.80e214eb.chunk.css.map",
     "static/js/2.7ed639b2.chunk.js.LICENSE.txt": "/taktikal/static/js/2.7ed639b2.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/taktikal/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.30a99cc1.js",
     "static/js/2.7ed639b2.chunk.js",
-    "static/css/main.dc4361f2.chunk.css",
-    "static/js/main.49fcb62d.chunk.js"
+    "static/css/main.80e214eb.chunk.css",
+    "static/js/main.e4a702b6.chunk.js"
   ]
 }
