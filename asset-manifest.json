@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/taktikal/static/css/main.80e214eb.chunk.css",
-    "main.js": "/taktikal/static/js/main.152ec281.chunk.js",
-    "main.js.map": "/taktikal/static/js/main.152ec281.chunk.js.map",
-    "runtime-main.js": "/taktikal/static/js/runtime-main.30a99cc1.js",
-    "runtime-main.js.map": "/taktikal/static/js/runtime-main.30a99cc1.js.map",
-    "static/js/2.7ed639b2.chunk.js": "/taktikal/static/js/2.7ed639b2.chunk.js",
-    "static/js/2.7ed639b2.chunk.js.map": "/taktikal/static/js/2.7ed639b2.chunk.js.map",
-    "index.html": "/taktikal/index.html",
-    "precache-manifest.a91b3d4e8e0136c77b6eb8a8263e9e58.js": "/taktikal/precache-manifest.a91b3d4e8e0136c77b6eb8a8263e9e58.js",
-    "service-worker.js": "/taktikal/service-worker.js",
-    "static/css/main.80e214eb.chunk.css.map": "/taktikal/static/css/main.80e214eb.chunk.css.map",
-    "static/js/2.7ed639b2.chunk.js.LICENSE.txt": "/taktikal/static/js/2.7ed639b2.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/taktikal/static/media/logo.5d5d9eef.svg"
+    "main.css": "/teknikal/static/css/main.80e214eb.chunk.css",
+    "main.js": "/teknikal/static/js/main.fa5b08ba.chunk.js",
+    "main.js.map": "/teknikal/static/js/main.fa5b08ba.chunk.js.map",
+    "runtime-main.js": "/teknikal/static/js/runtime-main.805011b4.js",
+    "runtime-main.js.map": "/teknikal/static/js/runtime-main.805011b4.js.map",
+    "static/js/2.46e8ea5f.chunk.js": "/teknikal/static/js/2.46e8ea5f.chunk.js",
+    "static/js/2.46e8ea5f.chunk.js.map": "/teknikal/static/js/2.46e8ea5f.chunk.js.map",
+    "index.html": "/teknikal/index.html",
+    "precache-manifest.d81717473cb72d1e3070f7f9f59da1e6.js": "/teknikal/precache-manifest.d81717473cb72d1e3070f7f9f59da1e6.js",
+    "service-worker.js": "/teknikal/service-worker.js",
+    "static/css/main.80e214eb.chunk.css.map": "/teknikal/static/css/main.80e214eb.chunk.css.map",
+    "static/js/2.46e8ea5f.chunk.js.LICENSE.txt": "/teknikal/static/js/2.46e8ea5f.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/teknikal/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.30a99cc1.js",
-    "static/js/2.7ed639b2.chunk.js",
+    "static/js/runtime-main.805011b4.js",
+    "static/js/2.46e8ea5f.chunk.js",
     "static/css/main.80e214eb.chunk.css",
-    "static/js/main.152ec281.chunk.js"
+    "static/js/main.fa5b08ba.chunk.js"
   ]
 }
