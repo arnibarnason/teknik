@@ -19,7 +19,7 @@
     "eject": "react-scripts eject",
     "postbuild": "react-snap",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b master"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
