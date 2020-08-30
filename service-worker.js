@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/taktikal/precache-manifest.aaab8151dd7a2aece676eb32fd804ba2.js"
+  "/taktikal/precache-manifest.a91b3d4e8e0136c77b6eb8a8263e9e58.js"
 );
 
 self.addEventListener('message', (event) => {

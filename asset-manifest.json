@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/taktikal/static/css/main.80e214eb.chunk.css",
-    "main.js": "/taktikal/static/js/main.e4a702b6.chunk.js",
-    "main.js.map": "/taktikal/static/js/main.e4a702b6.chunk.js.map",
+    "main.js": "/taktikal/static/js/main.152ec281.chunk.js",
+    "main.js.map": "/taktikal/static/js/main.152ec281.chunk.js.map",
     "runtime-main.js": "/taktikal/static/js/runtime-main.30a99cc1.js",
     "runtime-main.js.map": "/taktikal/static/js/runtime-main.30a99cc1.js.map",
     "static/js/2.7ed639b2.chunk.js": "/taktikal/static/js/2.7ed639b2.chunk.js",
     "static/js/2.7ed639b2.chunk.js.map": "/taktikal/static/js/2.7ed639b2.chunk.js.map",
     "index.html": "/taktikal/index.html",
-    "precache-manifest.aaab8151dd7a2aece676eb32fd804ba2.js": "/taktikal/precache-manifest.aaab8151dd7a2aece676eb32fd804ba2.js",
+    "precache-manifest.a91b3d4e8e0136c77b6eb8a8263e9e58.js": "/taktikal/precache-manifest.a91b3d4e8e0136c77b6eb8a8263e9e58.js",
     "service-worker.js": "/taktikal/service-worker.js",
     "static/css/main.80e214eb.chunk.css.map": "/taktikal/static/css/main.80e214eb.chunk.css.map",
     "static/js/2.7ed639b2.chunk.js.LICENSE.txt": "/taktikal/static/js/2.7ed639b2.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.30a99cc1.js",
     "static/js/2.7ed639b2.chunk.js",
     "static/css/main.80e214eb.chunk.css",
-    "static/js/main.e4a702b6.chunk.js"
+    "static/js/main.152ec281.chunk.js"
   ]
 }
