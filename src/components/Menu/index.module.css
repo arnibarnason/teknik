@@ -1,9 +1,11 @@
 .container {
-  display: flex;
   background-color: goldenrod;
+}
+
+.wrapper {
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 60px;
 }
 
 .logo {

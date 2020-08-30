@@ -6,11 +6,11 @@ import { AboutUs } from "./components/AboutUs";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Menu />
       <Hero />
       <AboutUs />
-    </div>
+    </>
   );
 }
 
