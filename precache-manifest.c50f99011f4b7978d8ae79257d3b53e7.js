@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06c23778b052f2279526a14ed2fbeca4",
+    "revision": "0c8b13f0f2751b45c9d852727a7ccf7f",
     "url": "/teknikal/index.html"
   },
   {
-    "revision": "3b82ad6d95eea588d51c",
+    "revision": "c86b9aad9c95b24b04d8",
     "url": "/teknikal/static/css/main.2a2a8a55.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teknikal/static/js/2.dad77534.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3b82ad6d95eea588d51c",
-    "url": "/teknikal/static/js/main.5ca48fae.chunk.js"
+    "revision": "c86b9aad9c95b24b04d8",
+    "url": "/teknikal/static/js/main.a1e73c24.chunk.js"
   },
   {
     "revision": "d1c64fba9694b73fef22",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/teknikal/static/css/main.2a2a8a55.chunk.css",
-    "main.js": "/teknikal/static/js/main.5ca48fae.chunk.js",
-    "main.js.map": "/teknikal/static/js/main.5ca48fae.chunk.js.map",
+    "main.js": "/teknikal/static/js/main.a1e73c24.chunk.js",
+    "main.js.map": "/teknikal/static/js/main.a1e73c24.chunk.js.map",
     "runtime-main.js": "/teknikal/static/js/runtime-main.805011b4.js",
     "runtime-main.js.map": "/teknikal/static/js/runtime-main.805011b4.js.map",
     "static/js/2.dad77534.chunk.js": "/teknikal/static/js/2.dad77534.chunk.js",
     "static/js/2.dad77534.chunk.js.map": "/teknikal/static/js/2.dad77534.chunk.js.map",
     "index.html": "/teknikal/index.html",
-    "precache-manifest.ed6f051c60a2131b3511427c03eb5822.js": "/teknikal/precache-manifest.ed6f051c60a2131b3511427c03eb5822.js",
+    "precache-manifest.c50f99011f4b7978d8ae79257d3b53e7.js": "/teknikal/precache-manifest.c50f99011f4b7978d8ae79257d3b53e7.js",
     "service-worker.js": "/teknikal/service-worker.js",
     "static/css/main.2a2a8a55.chunk.css.map": "/teknikal/static/css/main.2a2a8a55.chunk.css.map",
     "static/js/2.dad77534.chunk.js.LICENSE.txt": "/teknikal/static/js/2.dad77534.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.805011b4.js",
     "static/js/2.dad77534.chunk.js",
     "static/css/main.2a2a8a55.chunk.css",
-    "static/js/main.5ca48fae.chunk.js"
+    "static/js/main.a1e73c24.chunk.js"
   ]
 }
