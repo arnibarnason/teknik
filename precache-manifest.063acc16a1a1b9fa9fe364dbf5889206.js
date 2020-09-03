@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0c8b13f0f2751b45c9d852727a7ccf7f",
+    "revision": "5ce19dc84ca171cb62af51f7ae28524d",
     "url": "/teknikal/index.html"
   },
   {
-    "revision": "c86b9aad9c95b24b04d8",
-    "url": "/teknikal/static/css/main.2a2a8a55.chunk.css"
+    "revision": "55893ee44bdb50e23e78",
+    "url": "/teknikal/static/css/main.425f5911.chunk.css"
   },
   {
-    "revision": "7e2e0bf4e89a359a67f9",
-    "url": "/teknikal/static/js/2.dad77534.chunk.js"
+    "revision": "cea41ccc9c5848601260",
+    "url": "/teknikal/static/js/2.84744cf4.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/teknikal/static/js/2.dad77534.chunk.js.LICENSE.txt"
+    "url": "/teknikal/static/js/2.84744cf4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c86b9aad9c95b24b04d8",
-    "url": "/teknikal/static/js/main.a1e73c24.chunk.js"
+    "revision": "55893ee44bdb50e23e78",
+    "url": "/teknikal/static/js/main.d2f31842.chunk.js"
   },
   {
-    "revision": "d1c64fba9694b73fef22",
-    "url": "/teknikal/static/js/runtime-main.805011b4.js"
+    "revision": "1e6b0d415d93de21e234",
+    "url": "/teknikal/static/js/runtime-main.9e72b2d7.js"
   },
   {
     "revision": "6fca383073a63116e6807df29187946a",

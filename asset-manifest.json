@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/teknikal/static/css/main.2a2a8a55.chunk.css",
-    "main.js": "/teknikal/static/js/main.a1e73c24.chunk.js",
-    "main.js.map": "/teknikal/static/js/main.a1e73c24.chunk.js.map",
-    "runtime-main.js": "/teknikal/static/js/runtime-main.805011b4.js",
-    "runtime-main.js.map": "/teknikal/static/js/runtime-main.805011b4.js.map",
-    "static/js/2.dad77534.chunk.js": "/teknikal/static/js/2.dad77534.chunk.js",
-    "static/js/2.dad77534.chunk.js.map": "/teknikal/static/js/2.dad77534.chunk.js.map",
+    "main.css": "/teknikal/static/css/main.425f5911.chunk.css",
+    "main.js": "/teknikal/static/js/main.d2f31842.chunk.js",
+    "main.js.map": "/teknikal/static/js/main.d2f31842.chunk.js.map",
+    "runtime-main.js": "/teknikal/static/js/runtime-main.9e72b2d7.js",
+    "runtime-main.js.map": "/teknikal/static/js/runtime-main.9e72b2d7.js.map",
+    "static/js/2.84744cf4.chunk.js": "/teknikal/static/js/2.84744cf4.chunk.js",
+    "static/js/2.84744cf4.chunk.js.map": "/teknikal/static/js/2.84744cf4.chunk.js.map",
     "index.html": "/teknikal/index.html",
-    "precache-manifest.c50f99011f4b7978d8ae79257d3b53e7.js": "/teknikal/precache-manifest.c50f99011f4b7978d8ae79257d3b53e7.js",
+    "precache-manifest.063acc16a1a1b9fa9fe364dbf5889206.js": "/teknikal/precache-manifest.063acc16a1a1b9fa9fe364dbf5889206.js",
     "service-worker.js": "/teknikal/service-worker.js",
-    "static/css/main.2a2a8a55.chunk.css.map": "/teknikal/static/css/main.2a2a8a55.chunk.css.map",
-    "static/js/2.dad77534.chunk.js.LICENSE.txt": "/teknikal/static/js/2.dad77534.chunk.js.LICENSE.txt",
+    "static/css/main.425f5911.chunk.css.map": "/teknikal/static/css/main.425f5911.chunk.css.map",
+    "static/js/2.84744cf4.chunk.js.LICENSE.txt": "/teknikal/static/js/2.84744cf4.chunk.js.LICENSE.txt",
     "static/media/alvar.png": "/teknikal/static/media/alvar.6fca3830.png",
     "static/media/baldur.png": "/teknikal/static/media/baldur.ed7adf13.png",
     "static/media/brynjar.png": "/teknikal/static/media/brynjar.517bd6b0.png",
     "static/media/index.module.css": "/teknikal/static/media/hero2.a0f6e0e6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.805011b4.js",
-    "static/js/2.dad77534.chunk.js",
-    "static/css/main.2a2a8a55.chunk.css",
-    "static/js/main.a1e73c24.chunk.js"
+    "static/js/runtime-main.9e72b2d7.js",
+    "static/js/2.84744cf4.chunk.js",
+    "static/css/main.425f5911.chunk.css",
+    "static/js/main.d2f31842.chunk.js"
   ]
 }
