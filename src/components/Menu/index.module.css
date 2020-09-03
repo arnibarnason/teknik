@@ -1,5 +1,5 @@
 .container {
-  background-color: goldenrod;
+  background-color: #102027;
 }
 
 .wrapper {
@@ -8,12 +8,16 @@
   justify-content: space-between;
 }
 
-.logo {
+/* .logo {
   height: 100px;
   width: 100px;
+} */
+
+.logoTitle {
+  color: white;
 }
 
 .link {
-  color: black;
+  color: white;
   padding: 10px;
 }

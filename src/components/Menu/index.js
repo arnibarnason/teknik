@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "./index.module.css";
-import logo from "../../logo.svg";
+// import logo from "../../logo.svg";
 
 export const Menu = () => (
   <header className={styles.container}>
-    <div className={`${styles.wrapper} grid_container`}>
-      <img src={logo} className={styles.logo} alt="logo" />
-      <div>
+    <div className={`${styles.wrapper} verticalSpacing`}>
+      {/* <img src={logo} className={styles.logo} alt="logo" /> */}
+      <h2 className={styles.logoTitle}>Teknik</h2>
+      {/* <div>
         <a
           className={styles.link}
           href="https://reactjs.org"
@@ -21,7 +22,7 @@ export const Menu = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Verkefni
+          Starfsmenn
         </a>
         <a
           className={styles.link}
@@ -31,7 +32,7 @@ export const Menu = () => (
         >
           Hafðu samband
         </a>
-      </div>
+      </div> */}
     </div>
   </header>
 );
