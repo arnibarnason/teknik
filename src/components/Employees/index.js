@@ -7,17 +7,17 @@ import baldur from "../../assets/baldur.png";
 const employeeData = [
   {
     name: "Baldur Kárason",
-    phoneNumber: "6947391",
+    phoneNumber: "694 7391",
     img: baldur,
   },
   {
     name: "Brynjar Örn Árnason",
-    phoneNumber: "6947392",
+    phoneNumber: "694 7392",
     img: brynjar,
   },
   {
     name: "Alvar Ingi Hauksson",
-    phoneNumber: "6947393",
+    phoneNumber: "694 7393",
     img: alvar,
   },
 ];
@@ -29,7 +29,7 @@ const Employee = ({ name, img, phoneNumber }) => {
       <div className={styles.infoContainer}>
         <p className={styles.name}>{name}</p>
         <a className={styles.phoneNumber} href={`tel:${phoneNumber}`}>
-          S. {phoneNumber}
+          s. {phoneNumber}
         </a>
       </div>
     </li>
