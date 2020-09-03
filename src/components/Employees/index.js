@@ -16,7 +16,7 @@ const employeeData = [
     img: brynjar,
   },
   {
-    name: "Alvar Ingi Hauksson",
+    name: "Almar Gunnarsson",
     phoneNumber: "694 7393",
     img: alvar,
   },
