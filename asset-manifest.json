@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/teknikal/static/css/main.425f5911.chunk.css",
-    "main.js": "/teknikal/static/js/main.d2f31842.chunk.js",
-    "main.js.map": "/teknikal/static/js/main.d2f31842.chunk.js.map",
-    "runtime-main.js": "/teknikal/static/js/runtime-main.9e72b2d7.js",
-    "runtime-main.js.map": "/teknikal/static/js/runtime-main.9e72b2d7.js.map",
-    "static/js/2.84744cf4.chunk.js": "/teknikal/static/js/2.84744cf4.chunk.js",
-    "static/js/2.84744cf4.chunk.js.map": "/teknikal/static/js/2.84744cf4.chunk.js.map",
-    "index.html": "/teknikal/index.html",
-    "precache-manifest.063acc16a1a1b9fa9fe364dbf5889206.js": "/teknikal/precache-manifest.063acc16a1a1b9fa9fe364dbf5889206.js",
-    "service-worker.js": "/teknikal/service-worker.js",
-    "static/css/main.425f5911.chunk.css.map": "/teknikal/static/css/main.425f5911.chunk.css.map",
-    "static/js/2.84744cf4.chunk.js.LICENSE.txt": "/teknikal/static/js/2.84744cf4.chunk.js.LICENSE.txt",
-    "static/media/alvar.png": "/teknikal/static/media/alvar.6fca3830.png",
-    "static/media/baldur.png": "/teknikal/static/media/baldur.ed7adf13.png",
-    "static/media/brynjar.png": "/teknikal/static/media/brynjar.517bd6b0.png",
-    "static/media/index.module.css": "/teknikal/static/media/hero2.a0f6e0e6.png"
+    "main.css": "/teknik/static/css/main.26fcd414.chunk.css",
+    "main.js": "/teknik/static/js/main.704f51f2.chunk.js",
+    "main.js.map": "/teknik/static/js/main.704f51f2.chunk.js.map",
+    "runtime-main.js": "/teknik/static/js/runtime-main.5ef15290.js",
+    "runtime-main.js.map": "/teknik/static/js/runtime-main.5ef15290.js.map",
+    "static/js/2.84744cf4.chunk.js": "/teknik/static/js/2.84744cf4.chunk.js",
+    "static/js/2.84744cf4.chunk.js.map": "/teknik/static/js/2.84744cf4.chunk.js.map",
+    "index.html": "/teknik/index.html",
+    "precache-manifest.1990c2e1a7800313d1a359557276f20a.js": "/teknik/precache-manifest.1990c2e1a7800313d1a359557276f20a.js",
+    "service-worker.js": "/teknik/service-worker.js",
+    "static/css/main.26fcd414.chunk.css.map": "/teknik/static/css/main.26fcd414.chunk.css.map",
+    "static/js/2.84744cf4.chunk.js.LICENSE.txt": "/teknik/static/js/2.84744cf4.chunk.js.LICENSE.txt",
+    "static/media/alvar.png": "/teknik/static/media/alvar.6fca3830.png",
+    "static/media/baldur.png": "/teknik/static/media/baldur.ed7adf13.png",
+    "static/media/brynjar.png": "/teknik/static/media/brynjar.517bd6b0.png",
+    "static/media/index.module.css": "/teknik/static/media/hero2.a0f6e0e6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9e72b2d7.js",
+    "static/js/runtime-main.5ef15290.js",
     "static/js/2.84744cf4.chunk.js",
-    "static/css/main.425f5911.chunk.css",
-    "static/js/main.d2f31842.chunk.js"
+    "static/css/main.26fcd414.chunk.css",
+    "static/js/main.704f51f2.chunk.js"
   ]
 }
