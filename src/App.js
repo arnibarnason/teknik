@@ -88,8 +88,18 @@ function App() {
           <li>Sundlaugakerfi</li>
           <li>Varmadælukerfi fyrir hús og sumarbústaði</li>
         </ul>
-        <p>Hönnunarstjórn og verkeftirlit</p>
-        <p>Teknik tekur að sér hönnunarstjórn</p>
+        <h3>Hönnunarstjórn og verkeftirlit</h3>
+        <p>
+          Teknik tekur að sér að aðstoða við undirbúning, skipulagningu og
+          áætlanagerð verkefna ásamt eftirliti með öllum þáttum verkefnisins á
+          framkvæmdatíma.
+        </p>
+        <ul>
+          <li>Forhönnun</li>
+          <li>Kostnaðaráætlanir</li>
+          <li>Gerð útboðsgagna</li>
+          <li>Verkeftirlit</li>
+        </ul>
       </ContentSection>
       <Employees />
       <Footer />
