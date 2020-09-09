@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b7df858040a9ac2fed7bb6f1836de84",
+    "revision": "5ba90ee4eef001d82d5aa1bd3eec462a",
     "url": "/teknik/index.html"
   },
   {
-    "revision": "2227af0946d085b50c94",
-    "url": "/teknik/static/css/main.26fcd414.chunk.css"
+    "revision": "fc960b1033df79f05f90",
+    "url": "/teknik/static/css/main.26f2833d.chunk.css"
   },
   {
-    "revision": "cea41ccc9c5848601260",
-    "url": "/teknik/static/js/2.84744cf4.chunk.js"
+    "revision": "4ae227cccbc8d95bad37",
+    "url": "/teknik/static/js/2.9026ca4e.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/teknik/static/js/2.84744cf4.chunk.js.LICENSE.txt"
+    "url": "/teknik/static/js/2.9026ca4e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2227af0946d085b50c94",
-    "url": "/teknik/static/js/main.704f51f2.chunk.js"
+    "revision": "fc960b1033df79f05f90",
+    "url": "/teknik/static/js/main.d1a0830e.chunk.js"
   },
   {
     "revision": "e86e86efd3799327b702",
