@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/teknik/static/css/main.26f2833d.chunk.css",
-    "main.js": "/teknik/static/js/main.d1a0830e.chunk.js",
-    "main.js.map": "/teknik/static/js/main.d1a0830e.chunk.js.map",
-    "runtime-main.js": "/teknik/static/js/runtime-main.5ef15290.js",
-    "runtime-main.js.map": "/teknik/static/js/runtime-main.5ef15290.js.map",
-    "static/js/2.9026ca4e.chunk.js": "/teknik/static/js/2.9026ca4e.chunk.js",
-    "static/js/2.9026ca4e.chunk.js.map": "/teknik/static/js/2.9026ca4e.chunk.js.map",
-    "index.html": "/teknik/index.html",
-    "precache-manifest.c690a66e32810416a2eb38d87ca647d2.js": "/teknik/precache-manifest.c690a66e32810416a2eb38d87ca647d2.js",
-    "service-worker.js": "/teknik/service-worker.js",
-    "static/css/main.26f2833d.chunk.css.map": "/teknik/static/css/main.26f2833d.chunk.css.map",
-    "static/js/2.9026ca4e.chunk.js.LICENSE.txt": "/teknik/static/js/2.9026ca4e.chunk.js.LICENSE.txt",
-    "static/media/alvar.png": "/teknik/static/media/alvar.6fca3830.png",
-    "static/media/baldur.png": "/teknik/static/media/baldur.ed7adf13.png",
-    "static/media/brynjar.png": "/teknik/static/media/brynjar.517bd6b0.png",
-    "static/media/index.module.css": "/teknik/static/media/hero2.a0f6e0e6.png"
+    "main.css": "/static/css/main.8cdde993.chunk.css",
+    "main.js": "/static/js/main.9011df43.chunk.js",
+    "main.js.map": "/static/js/main.9011df43.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e9ca5a9b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e9ca5a9b.js.map",
+    "static/js/2.9026ca4e.chunk.js": "/static/js/2.9026ca4e.chunk.js",
+    "static/js/2.9026ca4e.chunk.js.map": "/static/js/2.9026ca4e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.497eb3236aa9c14b9857c074b60645bb.js": "/precache-manifest.497eb3236aa9c14b9857c074b60645bb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8cdde993.chunk.css.map": "/static/css/main.8cdde993.chunk.css.map",
+    "static/js/2.9026ca4e.chunk.js.LICENSE.txt": "/static/js/2.9026ca4e.chunk.js.LICENSE.txt",
+    "static/media/alvar.png": "/static/media/alvar.6fca3830.png",
+    "static/media/baldur.png": "/static/media/baldur.ed7adf13.png",
+    "static/media/brynjar.png": "/static/media/brynjar.517bd6b0.png",
+    "static/media/index.module.css": "/static/media/hero2.a0f6e0e6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5ef15290.js",
+    "static/js/runtime-main.e9ca5a9b.js",
     "static/js/2.9026ca4e.chunk.js",
-    "static/css/main.26f2833d.chunk.css",
-    "static/js/main.d1a0830e.chunk.js"
+    "static/css/main.8cdde993.chunk.css",
+    "static/js/main.9011df43.chunk.js"
   ]
 }
