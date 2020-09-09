@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 40px;
@@ -7,6 +8,6 @@
 
 .content {
   line-height: 24px;
-  text-align: center;
+  /* text-align: center; */
   max-width: 800px;
 }
