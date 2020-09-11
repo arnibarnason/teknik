@@ -14,18 +14,18 @@ function App() {
       <ContentSection title="Um Fyrirtækið">
         <p>
           Teknik er fyrirtæki sem samanstendur af sérfræðingum með áratuga
-          reynslu á sviði ráðgjafar, hönnunar, verkefnastjórnunar og í
-          eftirliti.
+          reynslu á sviði ráðgjafar, hönnunar, verkefnastjórnunar og eftirliti.
+          Lögð er áhersla á góða þjónustu við viðskiptavini og virðisaukandi
+          ráðgjöf.
         </p>
         <p>
-          Teknik eru sérhæfðir í öllu sem tengist hönnun pípulagna,
+          Hönnuðir Teknik eru sérhæfðir í öllu sem tengist hönnun pípulagna,
           loftræsikerfa og vatnsúðakerfa. Þeir hafa komið að ráðgjöf, hönnun og
-          eftirliti við stór og smá verkefni, innanlands og erlendis.{" "}
+          eftirliti við stór og smá verkefni, innanlands og erlendis.
         </p>
         <p>
-          Teknik getur veitt víðtæka ráðgjöf í samvinnu með reynslumiklum
-          samstarfsaðilum á sviði bruna- og öryggishönnunar, hljóðráðgjafar,
-          burðaþolsráðgjafar og raflagnahönnunar.
+          Teknik getur veitt heildstæða ráðgjöf við allt sem viðkemur
+          byggingaframkvæmdum í samvinnu við reynslumikla samstarfsaðila.
         </p>
       </ContentSection>
       <ContentSection title="Þjónusta">
@@ -33,7 +33,6 @@ function App() {
           Meðal verkefna sem starfsmenn Teknik hafa komið að eru einbýlis- og
           fjölbýlishús, atvinnu- og iðnaðarhúsnæði, skólabyggingar,
           íþróttamannvirki, hjúkrunarheimili ásamt ýmsum verkefnum í stóriðju.
-          Teknik.
         </p>
         <ul>
           <li>Úttektir og ástandsmat</li>
@@ -55,7 +54,7 @@ function App() {
         </p>
         <p>
           Teknik býður jafnframt upp á þarfagreiningu, ráðgjöf og hönnun vegna
-          úrbóta og stækkunar á eldri loftræsikerfum.
+          úrbóta og stækkunar á eldri loftræsikerfum:
         </p>
         <ul>
           <li>Loftgæðamælingar og ráðgjöf vegna innivistar</li>
@@ -76,7 +75,7 @@ function App() {
         </p>
         <p>
           Teknik býður jafnframt upp á þarfagreiningu, ráðgjöf og hönnun vegna
-          úrbóta og stækkunar á eldri lagnakerfum.{" "}
+          úrbóta og stækkunar á eldri lagnakerfum:
         </p>
         <ul>
           <li>Hitakerfi</li>
@@ -92,7 +91,7 @@ function App() {
         <p>
           Teknik tekur að sér að aðstoða við undirbúning, skipulagningu og
           áætlanagerð verkefna ásamt eftirliti með öllum þáttum verkefnisins á
-          framkvæmdatíma.
+          framkvæmdatíma:
         </p>
         <ul>
           <li>Forhönnun</li>
