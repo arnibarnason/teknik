@@ -6,8 +6,8 @@ export const Menu = () => (
   <header className={styles.container}>
     <div className={`${styles.wrapper} verticalSpacing`}>
       {/* <img src={logo} className={styles.logo} alt="logo" /> */}
-      {/* <h2 className={styles.logoTitle}>Teknik</h2> */}
-      {/* <div>
+      <h2 className={styles.logoTitle}>Teknik</h2>
+      <div>
         <a
           className={styles.link}
           href="https://reactjs.org"
@@ -32,7 +32,7 @@ export const Menu = () => (
         >
           Hafðu samband
         </a>
-      </div> */}
+      </div>
     </div>
   </header>
 );

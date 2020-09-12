@@ -9,8 +9,8 @@ import { Footer } from "./components/Footer";
 function App() {
   return (
     <>
-      <Menu />
       <Hero />
+      <Menu />
       <ContentSection title="Um Fyrirtækið">
         <p>
           Teknik er fyrirtæki sem samanstendur af sérfræðingum með áratuga
