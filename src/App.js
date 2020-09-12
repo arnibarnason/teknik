@@ -11,7 +11,7 @@ function App() {
     <>
       <Hero />
       <Menu />
-      <ContentSection title="Um Fyrirtækið">
+      <ContentSection title="Fyrirtækið">
         <p>
           Teknik er fyrirtæki sem samanstendur af sérfræðingum með áratuga
           reynslu á sviði ráðgjafar, hönnunar, verkefnastjórnunar og eftirliti.
