@@ -1,111 +1,106 @@
-# sapper-template
+# Start package for [Bulma](http://bulma.io)
 
-The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
+Tiny npm package that includes the `npm` **dependencies** you need to **build your own website** with Bulma.
 
+<a href="http://bulma.io"><img src="https://raw.githubusercontent.com/jgthms/bulma-start/master/bulma-start.png" alt="Bulma: a Flexbox CSS framework" style="max-width:100%;" width="600" height="315"></a>
 
-## Getting started
+## Install
 
+```sh
+npm install bulma-start
+```
+_or_
 
-### Using `degit`
-
-[`degit`](https://github.com/Rich-Harris/degit) is a scaffolding tool that lets you create a directory from a branch in a repository. Use either the `rollup` or `webpack` branch in `sapper-template`:
-
-```bash
-# for Rollup
-npx degit "sveltejs/sapper-template#rollup" my-app
-# for webpack
-npx degit "sveltejs/sapper-template#webpack" my-app
+```sh
+yarn add bulma-start
 ```
 
+## What's included
 
-### Using GitHub templates
+The `npm` dependencies included in `package.json` are:
 
-Alternatively, you can use GitHub's template feature with the [sapper-template-rollup](https://github.com/sveltejs/sapper-template-rollup) or [sapper-template-webpack](https://github.com/sveltejs/sapper-template-webpack) repositories.
+* <code>[bulma](https://github.com/jgthms/bulma)</code>
+* <code>[node-sass](https://github.com/sass/node-sass)</code> to compile your own Sass file
+* <code>[postcss-cli](https://github.com/postcss/postcss-cli)</code> and <code>[autoprefixer](https://github.com/postcss/autoprefixer)</code> to add support for older browsers
+* <code>[babel-cli](https://babeljs.io/docs/usage/cli/)</code>, <code>[babel-preset-env](https://github.com/babel/babel-preset-env)</code> and <code>[babel-preset-es2015-ie](https://github.com/jmcriffey/babel-preset-es2015-ie)</code> for compiling ES6 JavaScript files
+
+Apart from `package.json`, the following files are included:
+
+* `.babelrc` configuration file for [Babel](https://babeljs.io/)
+* `.gitignore` common [Git](https://git-scm.com/) ignored files
+* `index.html` this HTML5 file
+* `_sass/main.scss` a basic SCSS file that **imports Bulma** and explains how to **customize** your styles, and compiles to `css/main.css`
+* `_javascript/main.js` an ES6 JavaScript that compiles to `lib/main.js`
 
 
-### Running the project
+## Get your feet wet
 
-However you get the code, you can install dependencies and run the project in development mode with:
+This package is meant to provide a **good starting point** for working with Bulma.
 
-```bash
-cd my-app
-npm install # or yarn
-npm run dev
+When installing this package with the commands above, it landed in `$HOME/node_packages/bulma-start`.
+In order to use it as a **template** for your **project**, you might consider copying it to a better suited location:
+
+```sh
+cd $HOME/projects
+cp -a $HOME/node_modules/bulma-start my-bulma-project
 ```
 
-Open up [localhost:3000](http://localhost:3000) and start clicking around.
+Alternatively, you could do something similar with a GitHub clone as well.
 
-Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
-
-
-## Structure
-
-Sapper expects to find two directories in the root of your project —  `src` and `static`.
-
-
-### src
-
-The [src](src) directory contains the entry points for your app — `client.js`, `server.js` and (optionally) a `service-worker.js` — along with a `template.html` file and a `routes` directory.
-
-
-#### src/routes
-
-This is the heart of your Sapper app. There are two kinds of routes — *pages*, and *server routes*.
-
-**Pages** are Svelte components written in `.svelte` files. When a user first visits the application, they will be served a server-rendered version of the route in question, plus some JavaScript that 'hydrates' the page and initialises a client-side router. From that point forward, navigating to other pages is handled entirely on the client for a fast, app-like feel. (Sapper will preload and cache the code for these subsequent pages, so that navigation is instantaneous.)
-
-**Server routes** are modules written in `.js` files, that export functions corresponding to HTTP methods. Each function receives Express `request` and `response` objects as arguments, plus a `next` function. This is useful for creating a JSON API, for example.
-
-There are three simple rules for naming the files that define your routes:
-
-* A file called `src/routes/about.svelte` corresponds to the `/about` route. A file called `src/routes/blog/[slug].svelte` corresponds to the `/blog/:slug` route, in which case `params.slug` is available to the route
-* The file `src/routes/index.svelte` (or `src/routes/index.js`) corresponds to the root of your app. `src/routes/about/index.svelte` is treated the same as `src/routes/about.svelte`.
-* Files and directories with a leading underscore do *not* create routes. This allows you to colocate helper modules and components with the routes that depend on them — for example you could have a file called `src/routes/_helpers/datetime.js` and it would *not* create a `/_helpers/datetime` route
-
-
-### static
-
-The [static](static) directory contains any static assets that should be available. These are served using [sirv](https://github.com/lukeed/sirv).
-
-In your [service-worker.js](src/service-worker.js) file, you can import these as `files` from the generated manifest...
-
-```js
-import { files } from '@sapper/service-worker';
+```sh
+cd $HOME/projects
+git clone https://github.com/jgthms/bulma-start
+mv bulma-start my-bulma-project
+rm -rf my-bulma-project/.git     # cut its roots
 ```
 
-...so that you can cache them (though you can choose not to, for example if you don't want to cache very large files).
+Now, that you prepared the groundwork for your project, set up Bulma and run the watchers:
 
-
-## Bundler config
-
-Sapper uses Rollup or webpack to provide code-splitting and dynamic imports, as well as compiling your Svelte components. With webpack, it also provides hot module reloading. As long as you don't do anything daft, you can edit the configuration files to add whatever plugins you'd like.
-
-
-## Production mode and deployment
-
-To start a production version of your app, run `npm run build && npm start`. This will disable live reloading, and activate the appropriate bundler plugins.
-
-You can deploy your application to any environment that supports Node 10 or above. As an example, to deploy to [Vercel Now](https://vercel.com) when using `sapper export`, run these commands:
-
-```bash
-npm install -g vercel
-vercel
+```sh
+cd my-bulma-project
+npm install
+npm start
 ```
 
-If your app can't be exported to a static site, you can use the [now-sapper](https://github.com/thgh/now-sapper) builder. You can find instructions on how to do so in its [README](https://github.com/thgh/now-sapper#basic-usage).
+As long as `npm start` is running, it will **watch** your changes. You can edit `_sass/main.scss` and `_javascript/main.js` at will. Changes are **immediately** compiled to their destinations, where `index.html` will pick them up upon reload in your browser.
 
+Some controlling output is written to the `npm start` console in that process:
 
-## Using external components
+```sh
+_javascript/main.js -> lib/main.js
 
-When using Svelte components installed from npm, such as [@sveltejs/svelte-virtual-list](https://github.com/sveltejs/svelte-virtual-list), Svelte needs the original component source (rather than any precompiled JavaScript that ships with the component). This allows the component to be rendered server-side, and also keeps your client-side app smaller.
-
-Because of that, it's essential that the bundler doesn't treat the package as an *external dependency*. You can either modify the `external` option under `server` in [rollup.config.js](rollup.config.js) or the `externals` option in [webpack.config.js](webpack.config.js), or simply install the package to `devDependencies` rather than `dependencies`, which will cause it to get bundled (and therefore compiled) with your app:
-
-```bash
-npm install -D @sveltejs/svelte-virtual-list
+=> changed: $HOME/projects/start-with-bulma/_sass/main.scss
+Rendering Complete, saving .css file...
+Wrote CSS to $HOME/projects/start-with-bulma/css/main.css
 ```
 
+Use `npm run` to show all available commands:
 
-## Bugs and feedback
+```sh
+Lifecycle scripts included in bulma-start:
+  start
+    npm-run-all --parallel css-watch js-watch
 
-Sapper is in early development, and may have the odd rough edge here and there. Please be vocal over on the [Sapper issue tracker](https://github.com/sveltejs/sapper/issues).
+available via `npm run-script`:
+  css-build
+    node-sass _sass/main.scss css/main.css
+  css-deploy
+    npm run css-build && npm run css-postcss
+  css-postcss
+    postcss --use autoprefixer --output css/main.css css/main.css
+  css-watch
+    npm run css-build -- --watch
+  deploy
+    npm run css-deploy && npm run js-build
+  js-build
+    babel _javascript --out-dir lib
+  js-watch
+    npm run js-build -- --watch
+```
+
+If you want to learn more, follow these links: [Bulma homepage](http://bulma.io) and [Documentation](http://bulma.io/documentation/overview/start/).
+
+
+## Copyright and license
+
+Code copyright 2017 Jeremy Thomas. Code released under [the MIT license](https://github.com/jgthms/bulma-start/blob/master/LICENSE).
