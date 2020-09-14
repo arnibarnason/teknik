@@ -7,6 +7,7 @@ import { Employees } from "./components/Employees";
 import { Footer } from "./components/Footer";
 
 function App() {
+  return <h1>Síða í vinnslu</h1>;
   return (
     <>
       <Menu />
