@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./index.module.css";
+import styles from "./index.module.scss";
 import brynjar from "../../assets/brynjar.png";
 import alvar from "../../assets/alvar.png";
 import baldur from "../../assets/baldur.png";
@@ -34,7 +34,7 @@ const employeeData = [
   },
 ];
 
-const Employee = ({
+const EmployeeCard = ({
   name,
   img,
   phoneNumber,
@@ -43,37 +43,50 @@ const Employee = ({
   description,
 }) => {
   return (
-    <li className={styles.employeeContainer}>
-      <img className={styles.image} src={img} alt="Profile" />
-      <div className={styles.infoContainer}>
-        <p className={styles.name}>{name}</p>
-        {education.map((e) => (
-          <p className={styles.education}>{e}</p>
-        ))}
-        <p className={styles.description}>{description}</p>
-        <p className={styles.email}>{email}</p>
-        <a className={styles.phoneNumber} href={`tel:${phoneNumber}`}>
-          s. {phoneNumber}
-        </a>
+    <div class="card">
+      <div class="card-image">
+        <figure class={`image container ${styles.image}`}>
+          <img className="is-rounded" src={img} alt={name} />
+        </figure>
       </div>
-    </li>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-content">
+            <p class="title is-4">{name}</p>
+            <p class="subtitle is-6">{education}</p>
+          </div>
+        </div>
+        <div class="content">{description}</div>
+        <footer class="card-footer">
+          <p class="card-footer-item">
+            <span>{email}</span>
+          </p>
+          <p class="card-footer-item">
+            <span>s. {phoneNumber}</span>
+          </p>
+        </footer>
+      </div>
+    </div>
   );
 };
+
 export const Employees = () => (
-  <div className={`verticalSpacing ${styles.container}`}>
-    <h2 className={styles.title}>Tengiliðir</h2>
-    <ul className={styles.employeeListContainer}>
+  <div className="container">
+    <div className="columns">
+      {/* <h2 className={styles.title}>Tengiliðir</h2> */}
       {employeeData.map((data) => (
-        <Employee
-          key={data.phoneNumber}
-          name={data.name}
-          phoneNumber={data.phoneNumber}
-          email={data.email}
-          img={data.img}
-          education={data.education}
-          description={data.description}
-        />
+        <div className="column">
+          <EmployeeCard
+            key={data.phoneNumber}
+            name={data.name}
+            phoneNumber={data.phoneNumber}
+            email={data.email}
+            img={data.img}
+            education={data.education}
+            description={data.description}
+          />
+        </div>
       ))}
-    </ul>
+    </div>
   </div>
 );

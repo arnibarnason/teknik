@@ -1,0 +1,8 @@
+.hasBackgroundImage {
+    // background: url('../../assets/rvk.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+        url(../../assets/rvk.jpg);
+    background-size: cover;
+    // background-position: center;
+    background-repeat: no-repeat;
+}
