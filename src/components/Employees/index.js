@@ -48,7 +48,9 @@ const Employee = ({
       <div className={styles.infoContainer}>
         <p className={styles.name}>{name}</p>
         {education.map((e) => (
-          <p className={styles.education}>{e}</p>
+          <p key={e} className={styles.education}>
+            {e}
+          </p>
         ))}
         <p className={styles.description}>{description}</p>
         <p className={styles.email}>{email}</p>

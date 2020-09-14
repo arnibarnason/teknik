@@ -1,10 +1,10 @@
 .heroContainer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(../../assets/hero2.png);
+    url(../../assets/rvk.jpg);
 
   background-position: cover;
   /* Set a specific height */
-  height: 50vh;
+  height: 70vh;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
