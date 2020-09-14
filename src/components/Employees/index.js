@@ -43,25 +43,25 @@ const EmployeeCard = ({
   description,
 }) => {
   return (
-    <div class="card">
-      <div class="card-image">
-        <figure class={`image container ${styles.image}`}>
+    <div className={`card ${styles.bmCardEqualHeight}`}>
+      <div className="card-image">
+        <figure className={`image container ${styles.image}`}>
           <img className="is-rounded" src={img} alt={name} />
         </figure>
       </div>
-      <div class="card-content">
-        <div class="media">
-          <div class="media-content">
-            <p class="title is-4">{name}</p>
-            <p class="subtitle is-6">{education}</p>
+      <div className="card-content">
+        <div className="media">
+          <div className="media-content">
+            <p className="title is-4">{name}</p>
+            <p className="subtitle is-6">{education}</p>
           </div>
         </div>
-        <div class="content">{description}</div>
-        <footer class="card-footer">
-          <p class="card-footer-item">
+        <div className="content">{description}</div>
+        <footer className={`${styles.bmCardFooter} card-footer`}>
+          <p className="card-footer-item">
             <span>{email}</span>
           </p>
-          <p class="card-footer-item">
+          <p className="card-footer-item">
             <span>s. {phoneNumber}</span>
           </p>
         </footer>
