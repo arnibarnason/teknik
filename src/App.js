@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import { Menu } from "./components/Menu";
-import { Hero } from "./components/Hero";
-import { ContentSection } from "./components/ContentSection";
-import { Employees } from "./components/Employees";
-import { Footer } from "./components/Footer";
+// import { Menu } from "./components/Menu";
+// import { Hero } from "./components/Hero";
+// import { ContentSection } from "./components/ContentSection";
+// import { Employees } from "./components/Employees";
+// import { Footer } from "./components/Footer";
 
 function App() {
   return <h1>Síða í vinnslu</h1>;
