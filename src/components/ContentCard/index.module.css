@@ -1,21 +1,23 @@
 .container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 20px;
   margin-top: 40px;
+  min-width: 300px;
 }
 
-.wrapper {
-  display: flex;
-  max-width: 1000px;
+.cardWrapper {
+  background-color: var(--primary);
   padding: 30px;
   border: 1px solid var(--secondary);
   border-radius: 4px;
-  background-color: var(--primary);
   color: var(--white);
 }
 
 .content {
   line-height: 24px;
   /* text-align: center; */
+  max-width: 320px;
 }

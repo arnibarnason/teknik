@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./index.module.css";
-import brynjar from "../../assets/brynjar.png";
-import alvar from "../../assets/alvar.png";
-import baldur from "../../assets/baldur.png";
+import brynjar from "../../assets/brynjar.jpg";
+import almar from "../../assets/almar.jpg";
+import baldur from "../../assets/baldur.jpg";
 
 const employeeData = [
   {
@@ -26,7 +26,7 @@ const employeeData = [
   {
     name: "Almar Gunnarsson",
     phoneNumber: "694 7393",
-    img: alvar,
+    img: almar,
     education: ["Verkfræðingur MSc."],
     email: "almar@teknik.is",
     description:
@@ -48,7 +48,9 @@ const Employee = ({
       <div className={styles.infoContainer}>
         <p className={styles.name}>{name}</p>
         {education.map((e) => (
-          <p className={styles.education}>{e}</p>
+          <p key={e} className={styles.education}>
+            {e}
+          </p>
         ))}
         <p className={styles.description}>{description}</p>
         <p className={styles.email}>{email}</p>

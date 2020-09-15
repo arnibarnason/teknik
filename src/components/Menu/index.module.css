@@ -1,5 +1,9 @@
 .container {
-  background-color: #101f27;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--primary-dark);
 }
 
 .wrapper {
@@ -14,10 +18,11 @@
 } */
 
 .logoTitle {
-  color: white;
+  /* color: white; */
 }
 
 .link {
-  color: white;
+  /* color: white; */
   padding: 10px;
+  text-decoration: none;
 }
