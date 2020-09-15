@@ -14,7 +14,15 @@ export const Menu = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Um okkur
+          Um fyrirtækið
+        </a>
+        <a
+          className={styles.link}
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Þjónusta
         </a>
         <a
           className={styles.link}

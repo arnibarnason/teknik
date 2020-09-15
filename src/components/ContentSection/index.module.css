@@ -1,13 +1,16 @@
 .container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 40px;
 }
 
+.wrapper {
+  display: flex;
+  max-width: 1000px;
+}
+
 .content {
   line-height: 24px;
   /* text-align: center; */
-  max-width: 800px;
 }
