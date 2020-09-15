@@ -8,6 +8,11 @@
 .wrapper {
   display: flex;
   max-width: 1000px;
+  padding: 30px;
+  border: 1px solid var(--secondary);
+  border-radius: 4px;
+  background-color: var(--primary);
+  color: var(--white);
 }
 
 .content {

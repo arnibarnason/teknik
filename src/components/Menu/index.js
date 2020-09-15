@@ -6,7 +6,7 @@ export const Menu = () => (
   <header className={styles.container}>
     <div className={`${styles.wrapper} verticalSpacing`}>
       {/* <img src={logo} className={styles.logo} alt="logo" /> */}
-      <h2 className={styles.logoTitle}>TEKNIK.</h2>
+      <h2 className={styles.logoTitle}>TEKNIK</h2>
       <div>
         <a
           className={styles.link}

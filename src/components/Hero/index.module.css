@@ -5,7 +5,7 @@
 
   background-position: cover;
   /* Set a specific height */
-  height: 70vh;
+  height: calc(100vh - 68px);
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -65,10 +65,10 @@
 }
 
 .title {
-  color: var(--text-on-primary);
+  /* color: var(--text-on-primary); */
 }
 
 .subTitle {
-  color: var(--text-on-primary);
+  /* color: var(--text-on-primary); */
   font-weight: 400;
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./index.module.css";
-import brynjar from "../../assets/brynjar.png";
-import alvar from "../../assets/alvar.png";
-import baldur from "../../assets/baldur.png";
+import brynjar from "../../assets/brynjar.jpg";
+import almar from "../../assets/almar.jpg";
+import baldur from "../../assets/baldur.jpg";
 
 const employeeData = [
   {
@@ -26,7 +26,7 @@ const employeeData = [
   {
     name: "Almar Gunnarsson",
     phoneNumber: "694 7393",
-    img: alvar,
+    img: almar,
     education: ["Verkfræðingur MSc."],
     email: "almar@teknik.is",
     description:

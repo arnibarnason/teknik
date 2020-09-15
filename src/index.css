@@ -3,8 +3,16 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: var(--text-on-secondary);
-  background-color: var(--background);
+  background-color: var(--primary-dark);
+}
+
+a,
+p,
+div,
+h1,
+h2,
+h3 {
+  color: var(--white);
 }
 
 :root {
@@ -12,11 +20,11 @@ body {
   --light-gray: #f5f5f5;
   --almost-black: #020202;
   --almost-black: #020202; */
-  --white: #ffffff;
+  --white: #f5f5f5;
   --background: #f5f5f5;
-  --primary: #00263f;
-  --primary-light: #314e6a;
-  --primary-dark: #00001a;
+  --primary: #263238;
+  --primary-light: #4f5b62;
+  --primary-dark: #000a12;
   --text-on-primary: #ffffff;
   --text-on-secondary: #000000;
   --secondary: #fdd835;

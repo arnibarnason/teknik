@@ -9,9 +9,11 @@
 }
 
 .cardWrapper {
-  padding: 20px;
-  background-color: var(--white);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: var(--primary);
+  padding: 30px;
+  border: 1px solid var(--secondary);
+  border-radius: 4px;
+  color: var(--white);
 }
 
 .content {
