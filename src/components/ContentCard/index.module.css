@@ -5,6 +5,7 @@
   justify-content: center;
   margin: 20px;
   margin-top: 40px;
+  min-width: 300px;
 }
 
 .cardWrapper {
@@ -16,5 +17,5 @@
 .content {
   line-height: 24px;
   /* text-align: center; */
-  max-width: 400px;
+  max-width: 320px;
 }
